@@ -1,0 +1,46 @@
+# Binaries
+/pulse
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of `go tool cover`
+*.out
+
+# Dependency vendor directory
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Environment files
+.env
+.env.*
+
+# Editor and OS metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build output
+/dist/
+
+# Coverage
+coverage.*
+
+# Pulse runtime output
+pulse.log
+*.log
+
+# Claude local config
+.claude/

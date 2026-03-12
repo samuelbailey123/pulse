@@ -1,0 +1,9 @@
+targets:
+  - name: ""
+    url: https://example.com
+    type: grpc
+    interval: 30s
+    timeout: 5s
+defaults:
+  interval: 30s
+  timeout: 5s

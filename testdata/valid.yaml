@@ -1,0 +1,17 @@
+targets:
+  - name: Example API
+    url: https://httpbin.org/get
+    interval: 30s
+    timeout: 5s
+    expect:
+      status: 200
+  - name: Example TCP
+    url: localhost:443
+    type: tcp
+    interval: 15s
+    timeout: 3s
+defaults:
+  interval: 30s
+  timeout: 5s
+  method: GET
+  tls_warn_days: 14
